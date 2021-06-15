@@ -1,0 +1,46 @@
+.button {
+    -fx-font-size: 16;
+    -fx-background-color: #f0fff0;
+    -fx-border-width: 1;
+    -fx-border-color: #2422223C;
+}
+
+.button:pressed {
+    -fx-translate-y: 4;
+    -fx-effect: dropshadow(one-pass-box, #999, 10, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #B2D2B2FF;
+}
+
+.text-field {
+    -fx-font-size: 16;
+    -fx-alignment: center-right;
+}
+
+.label {
+    -fx-font-size: 14;
+}
+
+.dialog-pane {
+    -fx-font-size: 14;
+    -fx-background-color: #FFFFFFFF;
+}
+
+
+#result {
+    -fx-font-weight: bold;
+
+}
+
+#popup {
+    -fx-background-color: #FFFFFFFF;
+    -fx-padding: 2;
+
+}
+
+#labelResult {
+    -fx-font-weight: bold;
+}
+
